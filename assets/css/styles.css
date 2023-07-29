@@ -172,10 +172,6 @@ img {
     margin-top: 20px;
 }
 
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -188,3 +184,64 @@ img {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+
+  @media screen and (max-width: 2050px) {
+    body {
+        background-size: 60%, 0%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    body {
+        background-size: 90%, 0%;
+    }
+
+    .social-proof-section {
+        transform: translate(-50%, -20%);
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        gap: 30px;
+    }
+
+    .first-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .rate {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 60px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .star-rate p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .rate-two {
+        margin-left: 0;
+    }
+
+    .rate-three {
+        margin-left: 0;
+    }
+
+    .second-container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .attribution {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: )
